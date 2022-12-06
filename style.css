@@ -464,6 +464,7 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+
 button {
     outline: none!important;
 }
@@ -520,13 +521,14 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    opacity: 1;
 }
 
 .showScrollTop {
@@ -681,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
